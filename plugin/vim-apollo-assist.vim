@@ -9,3 +9,6 @@ import autoload "apollo.vim"
 
 command! -nargs=0 -range ATADocument :call apollo.ATADocument()
 vnoremap <silent> ;ad :ATADocument<CR>
+
+command! -nargs=0 -range ATAImprove :call apollo.ATAImprove()
+vnoremap <silent> ;ai :ATAImprove<CR>
